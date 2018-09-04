@@ -97,6 +97,17 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
+	
+<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <url>http://localhost:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>	
 
    <profiles>
         <profile>
